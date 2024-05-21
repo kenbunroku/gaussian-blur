@@ -5,6 +5,7 @@ export default defineConfig(() => {
   return {
     root: "src",
     publicDir: "../public",
+    base: "/gaussian-blur/",
     build: {
       outDir: "../dist",
       emptyOutDir: true,
