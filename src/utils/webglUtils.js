@@ -1,5 +1,6 @@
 export function loadImage(path) {
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
+    // Add reject here
     // Image オブジェクトの生成
     const img = new Image();
     // ロード完了を検出したいので、先にイベントを設定する
