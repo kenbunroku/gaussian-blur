@@ -5,6 +5,10 @@ export default defineConfig(() => {
   return {
     root: "src",
     publicDir: "../public",
+    build: {
+      outDir: "../dist",
+      emptyOutDir: true,
+    },
     plugins: [glsl()],
   };
 });
