@@ -97,7 +97,7 @@ const blur = {};
 const dualKawaseBlur = {};
 const result = {};
 async function createScene() {
-  const img = await loadImage("/sakura.jpg");
+  const img = await loadImage("sakura.jpg");
 
   normal.texture = createTexture(gl, img);
   const geom = plane(2.0, 2.0, [1.0, 0.0, 0.0, 1.0]);
