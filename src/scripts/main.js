@@ -46,7 +46,6 @@ const renderSpec = {
   quarterArray: new Float32Array(3),
 };
 renderSpec.setSize = function (w, h) {
-  console.log(w);
   renderSpec.width = w;
   renderSpec.height = h;
   renderSpec.aspect = renderSpec.width / renderSpec.height;
